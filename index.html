@@ -4,173 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Anshu Shrestha's Portfolio</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: Arial, sans-serif;
-        }
-
-        body {
-            background: linear-gradient(120deg, #f6d365, #fda085);
-            color: #333;
-            line-height: 1.6;
-        }
-
-        header {
-            background: #333;
-            color: #fff;
-            padding: 20px 10%;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            animation: fadeInDown 1s ease-in-out;
-        }
-
-        header h1 {
-            font-size: 24px;
-        }
-
-        nav ul {
-            list-style: none;
-            display: flex;
-        }
-
-        nav ul li {
-            margin: 0 15px;
-        }
-
-        nav ul li a {
-            text-decoration: none;
-            color: #fff;
-            transition: color 0.3s;
-        }
-
-        nav ul li a:hover {
-            color: #fda085;
-        }
-
-        .hero {
-            text-align: center;
-            padding: 50px 10%;
-            animation: fadeIn 2s ease-in-out;
-        }
-
-        .hero h2 {
-            font-size: 48px;
-            margin-bottom: 20px;
-        }
-
-        .hero p {
-            font-size: 18px;
-        }
-
-        .about,
-        .projects {
-            padding: 50px 10%;
-            animation: slideIn 1.5s ease-in-out;
-        }
-
-        .section-title {
-            font-size: 32px;
-            margin-bottom: 20px;
-        }
-
-        .projects-container {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 20px;
-        }
-
-        .project {
-            background: #fff;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            transition: transform 0.3s;
-            animation: zoomIn 1.5s ease-in-out;
-        }
-
-        .project:hover {
-            transform: scale(1.05);
-        }
-
-        .contact {
-            background: #333;
-            color: #fff;
-            text-align: center;
-            padding: 20px 10%;
-            animation: fadeInUp 1s ease-in-out;
-        }
-
-        .contact a {
-            text-decoration: none;
-            color: #fda085;
-        }
-
-        footer {
-            background: #222;
-            color: #fff;
-            text-align: center;
-            padding: 10px;
-            font-size: 14px;
-            animation: fadeIn 1s ease-in-out;
-        }
-
-        @keyframes fadeIn {
-            from {
-                opacity: 0;
-            }
-            to {
-                opacity: 1;
-            }
-        }
-
-        @keyframes fadeInDown {
-            from {
-                opacity: 0;
-                transform: translateY(-20px);
-            }
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
-
-        @keyframes fadeInUp {
-            from {
-                opacity: 0;
-                transform: translateY(20px);
-            }
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
-
-        @keyframes slideIn {
-            from {
-                opacity: 0;
-                transform: translateX(-30px);
-            }
-            to {
-                opacity: 1;
-                transform: translateX(0);
-            }
-        }
-
-        @keyframes zoomIn {
-            from {
-                opacity: 0;
-                transform: scale(0.8);
-            }
-            to {
-                opacity: 1;
-                transform: scale(1);
-            }
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
@@ -198,16 +32,24 @@
         <h2 class="section-title">Projects</h2>
         <div class="projects-container">
             <div class="project">
-                <h3>Project 1</h3>
-                <p>Description of the project. Highlights key features and technologies used.</p>
+                <h3>School Management System</h3>
+                <p>A Python-based application for managing school operations, including student and teacher records.</p>
             </div>
             <div class="project">
-                <h3>Project 2</h3>
-                <p>Description of the project. Highlights key features and technologies used.</p>
+                <h3>Vegetable Online Mart</h3>
+                <p>A group project built with Python, offering a user-friendly interface for online vegetable shopping.</p>
             </div>
             <div class="project">
-                <h3>Project 3</h3>
-                <p>Description of the project. Highlights key features and technologies used.</p>
+                <h3>E-commerce Shoe Site</h3>
+                <p>An individual project using Spring Boot for creating a dynamic shoe e-commerce platform.</p>
+            </div>
+            <div class="project">
+                <h3>Car Rental Service</h3>
+                <p>A MERN stack React application for car rental services, available on web and Android platforms.</p>
+            </div>
+            <div class="project">
+                <h3>Gear Up Auto Suppliers</h3>
+                <p>Currently developing an online car parts website for Nepal using modern web technologies.</p>
             </div>
         </div>
     </section>
